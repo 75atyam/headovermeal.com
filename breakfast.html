@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Head Over Meals</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!--Fontawesome CDN-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+
+
+
+</head>
+
+<body>
+
+    <nav class="navbar container-flex navbar-expand-lg navbar-light bg-black">
+
+        <div class="col-sm-12 col-12 col-md-12 col-lg-12 col-xl-12">
+
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <a class="navbar-brand" href="#"><img src="img/logo.png" style="  width: 30%; height: 67px;"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6   mobile-1 ">
+                    <div class="collapse navbar-collapse float-right" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <!-- <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a> -->
+                            </li>
+                            <!-- <li class="nav-item">
+                                <a class="nav-link" href="breakfast.html">order<span class="sr-only">(current)</span></a>
+                            </li> -->
+                            <!-- <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact Us<span class="sr-only">(current)</span></a>
+                            </li> -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                               <B> HOME & OTHER<B>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="contact.html">CONTACT</a>
+                                    <a class="dropdown-item" href="#">GRIEF</a>
+                                    <a class="dropdown-item" href="#">FOUNDER</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">OTHER WEBSITE</a>
+                                    <a class="dropdown-item" href="#">MANAGEMENT</a>
+                                    <a class="dropdown-item" href="#">KNOW MORE?</a>
+                                </div>
+                            </li> 
+                            <li class="nav-item">
+
+                                <div class="container">
+                                    <!-- Button to Open the Modal -->
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                                        Create Account </button>
+
+                                    <!-- The Modal -->
+                                    <div class="modal" id="myModal">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+
+                                                <!-- Modal Header -->
+                                                <div class="modal-header">
+                                                    <h4 class="modal-title">Create an Account</h4>
+                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                </div>
+
+                                                <!-- Modal body -->
+                                                <div class="modal-body">
+                                                    <form>
+                                                        <div class="input-group form-group">
+                                                            <div class="input-group-prepend">
+                                                                <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                                            </div>
+                                                            <input type="text" class="form-control" placeholder="Full Name">
+
+                                                        </div>
+                                                        <div class="input-group form-group">
+                                                            <div class="input-group-prepend">
+                                                                <span class="input-group-text"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                                                            </div>
+                                                            <input type="Email" class="form-control" placeholder="Email">
+                                                        </div>
+                                                        <div class="input-group form-group">
+                                                            <div class="input-group-prepend">
+                                                                <span class="input-group-text"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                                                            </div>
+                                                            <input type="Number" class="form-control" placeholder="Phone No">
+                                                        </div>
+                                                        <div class="row align-items-center text-black remember">
+                                                            <input type="checkbox">
+                                                            I agree to Head Over Meals of Service, Privacy Policy and Content Policies
+                                                        </div>
+                                                        <!-- <div class="form-group">
+                                                            <a href="index.html">
+                                                                <input type="submit" value="Register" class="btn float-right login_btn">
+
+                                                            </a>
+                                                        </div> -->
+                                                    </form>
+                                                </div>
+
+                                                <!-- Modal footer -->
+                                                <div class="modal-footer">
+                                                    div class="form-group">
+                                                    <a href="index.html">
+                                                        <input type="submit" value="Register" class="btn float-right login_btn">
+
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+    </nav>
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+
+
+        <!-- <div aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                 <div class="cont"> <img src="img/food-order.jpg"> 
+                <li class="breadcrumb-item active text-center" aria-current="page"><a href="index.html">
+                        Home </a>             
+        </li>
+
+        </ol> -->
+    </div>
+</div>
+  
+    <section class="work1">
+        <div class="container">
+            <div class="col-sm-12 col-12 col-md-12 col-xl-12 col-lg-12">
+
+                <div class="page-header1 section-header">
+                    <h1>ORDER <span>YOUR FOOD</span></h1>
+                    <p class="text-center"> <span>Order Your Breakfast</span></p>
+
+                </div>
+                <!-- <h5> <span>Order Your Breakfast</span></h5> -->
+
+            </div>
+            <div class="col-sm-12 col-12 col-md-12 col-xl-12 col-lg-12">
+                <div class="row">
+
+                    <div class="col-sm-12 col-12 col-md-3 col-xl-3 col-lg-3">
+                        <div class="gallery1_card">
+                            <img src="img/dhosa.jpg" alt="Avatar" style="  height: 182px;">
+                            <div class="gallery_container">
+                                <h4><b>Dosa</b></h4>
+                                <p>25 Rps.</p>
+
+
+                            </div>
+                            <div class="row order_width">
+
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                    <div class="font_delivery ">
+                                        <abbr title="Your Order will be Delivery in 20 min"> <img src="img/delivery-man.png" alt="Avatar">
+                                        </abbr>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                    <div class="font_delivery1">
+                                        <abbr title="You can pickup order in 25 min"> <img src="img/clock.png" alt="Avatar"></abbr>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-12 col-md-12 col-xl-12 col-lg-12">
+
+                                    <div class="button_center1">
+                                        <a href="index.html">
+                                            <input type="submit" value="Order Online" class="btn float-right login_btn button_center">
+
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="col-sm-12 col-12 col-md-3 col-xl-3 col-lg-3">
+                        <div class="gallery1_card">
+                            <img src="img/idli.jpg" alt="Avatar" style="  height: 182px;">
+                            <div class="gallery_container">
+                                <h4><b>Idli</b></h4>
+                                <p>20 Rps.</p>
+
+                            </div>
+                            <div class="row order_width">
+
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                    <div class="font_delivery ">
+                                        <abbr title="Your Order will be Delivery in 20 min"> <img src="img/delivery-man.png" alt="Avatar">
+                                        </abbr>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                    <div class="font_delivery1">
+                                        <abbr title="You can pickup order in 25 min"> <img src="img/clock.png" alt="Avatar"></abbr>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-12 col-md-12 col-xl-12 col-lg-12">
+
+                                    <div class="button_center1">
+                                        <a href="index.html">
+                                            <input type="submit" value="Order Online" class="btn float-right login_btn button_center">
+
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="col-sm-12 col-12 col-md-3 col-xl-3 col-lg-3">
+                        <div class="gallery1_card">
+                            <img src="img/samosa.jpg" alt="Avatar" style="height: 182px;">
+                            <div class="gallery_container">
+                                <h4><b>Samosa</b></h4>
+                                <p>10 Rps.</p>
+
+                            </div>
+                            <div class="row order_width">
+
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                    <div class="font_delivery ">
+                                        <abbr title="Your Order will be Delivery in 20 min"> <img src="img/delivery-man.png" alt="Avatar">
+                                        </abbr>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                    <div class="font_delivery1">
+                                        <abbr title="You can pickup order in 25 min"> <img src="img/clock.png" alt="Avatar"></abbr>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-12 col-md-12 col-xl-12 col-lg-12">
+
+                                    <div class="button_center1">
+                                        <a href="index.html">
+                                            <input type="submit" value="Order Online" class="btn float-right login_btn button_center">
+
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <div class="col-sm-12 col-12 col-md-3 col-xl-3 col-lg-3">
+                        <div class="gallery1_card">
+                            <img src="img/sandwich.jpg" alt="Avatar" style="height: 182px;">
+                            <div class="gallery_container">
+                                <h4><b>Sandwich </b></h4>
+                                <p>30 Rps.</p>
+
+                            </div>
+                            <div class="row order_width">
+
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                    <div class="font_delivery ">
+                                        <abbr title="Your Order will be Delivery in 20 min"> <img src="img/delivery-man.png" alt="Avatar">
+                                        </abbr>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                    <div class="font_delivery1">
+                                        <abbr title="You can pickup order in 25 min"> <img src="img/clock.png" alt="Avatar"></abbr>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-12 col-md-12 col-xl-12 col-lg-12">
+
+                                    <div class="button_center1">
+                                        <a href="index.html">
+                                            <input type="submit" value="Order Online" class="btn float-right login_btn button_center">
+
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+
+
+
+
+                </div>
+                <!-- <div class="row rw_food_online">
+
+                    <div class="col-sm-12 col-12 col-md-3 col-xl-3 col-lg-3">
+                        <div class="gallery1_card">
+                            <img src="img/idli.jpg" alt="Avatar">
+                            <div class="gallery_container">
+                                <h4><b>Pizza Hut</b></h4>
+                                <p>Type of food :
+                                    Beef Roast
+                                    Pizza
+                                    Stakes</p>
+
+
+                            </div>
+                            <div class="row order_width">
+
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                    <div class="font_delivery ">
+                                        <abbr title="Your Order will be Delivery in 20 min"> <img src="img/delivery-man.png" alt="Avatar">
+                                        </abbr>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                    <div class="font_delivery1">
+                                        <abbr title="You can pickup order in 25 min"> <img src="img/clock.png" alt="Avatar"></abbr>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-12 col-md-12 col-xl-12 col-lg-12">
+
+                                    <div class="button_center1">
+                                        <a href="index.html">
+                                            <input type="submit" value="Order Online" class="btn float-right login_btn button_center">
+
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="col-sm-12 col-12 col-md-3 col-xl-3 col-lg-3">
+                        <div class="gallery1_card">
+                            <img src="img/koot.jpg" alt="Avatar" style="  height: 182px;">
+                            <div class="gallery_container">
+                                <h4><b>Subway</b></h4>
+                                <p>Type of food :
+                                    Beef Roast
+                                    Pizza
+                                    Stakes</p>
+
+                            </div>
+                            <div class="row order_width">
+
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                    <div class="font_delivery ">
+                                        <abbr title="Your Order will be Delivery in 20 min"> <img src="img/delivery-man.png" alt="Avatar">
+                                        </abbr>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                    <div class="font_delivery1">
+                                        <abbr title="You can pickup order in 25 min"> <img src="img/clock.png" alt="Avatar"></abbr>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-12 col-md-12 col-xl-12 col-lg-12">
+
+                                    <div class="button_center1">
+                                        <a href="index.html">
+                                            <input type="submit" value="Order Online" class="btn float-right login_btn button_center">
+
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="col-sm-12 col-12 col-md-3 col-xl-3 col-lg-3">
+                        <div class="gallery1_card">
+                            <img src="img/samosa.jpg" alt="Avatar" style="height: 182px;">
+                            <div class="gallery_container">
+                                <h4><b>Burger King</b></h4>
+                                <p>Type of food :
+                                    Beef Roast
+                                    Pizza
+                                    Stakes</p>
+
+                            </div>
+                            <div class="row order_width">
+
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                    <div class="font_delivery ">
+                                        <abbr title="Your Order will be Delivery in 20 min"> <img src="img/delivery-man.png" alt="Avatar">
+                                        </abbr>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                    <div class="font_delivery1">
+                                        <abbr title="You can pickup order in 25 min"> <img src="img/clock.png" alt="Avatar"></abbr>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-12 col-md-12 col-xl-12 col-lg-12">
+
+                                    <div class="button_center1">
+                                        <a href="index.html">
+                                            <input type="submit" value="Order Online" class="btn float-right login_btn button_center">
+
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <div class="col-sm-12 col-12 col-md-3 col-xl-3 col-lg-3">
+                        <div class="gallery1_card">
+                            <img src="img/burger_1.jpg" alt="Avatar" style="height: 182px;">
+                            <div class="gallery_container">
+                                <h4><b>Hotel Lijesh</b></h4>
+                                <p>Type of food :
+                                    Beef Roast
+                                    Pizza
+                                    Stakes</p>
+
+                            </div>
+                            <div class="row order_width">
+
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                    <div class="font_delivery ">
+                                        <abbr title="Your Order will be Delivery in 20 min"> <img src="img/delivery-man.png" alt="Avatar">
+                                        </abbr>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                    <div class="font_delivery1">
+                                        <abbr title="You can pickup order in 25 min"> <img src="img/clock.png" alt="Avatar"></abbr>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-12 col-md-12 col-xl-12 col-lg-12">
+
+                                    <div class="button_center1">
+                                        <a href="index.html">
+                                            <input type="submit" value="Order Online" class="btn float-right login_btn button_center">
+
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+
+
+
+
+                </div> -->
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Footer -->
+    <div class="footer_body">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="logo_img">
+                        <a class="navbar-brand logo_down" href="#"><img src="img/logo.png"></a>
+
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="logo_img1">
+                        <p>
+                            Address : Theem College of Engineering - [TCOE] , East, Boisar - Palghar Rd, Chilhar, Maharashtra 401501
+                            <br> Moble No:
+                            <a href="tel:+8668738918">
+                                8668738918
+
+                            </a>
+                            <br> Email Id:
+                            <a href="mailto:affanshaikh030@gmail.com" target="_top"> affanshaikh030@gmail.com</a>
+
+                        </p>
+
+                    </div>
+                </div>
+
+
+
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="ul_list">
+                        <ul class="underlist_1">
+                            <li>
+                                <div class="icon_con1_fo"> <span><i class="fab fa-twitter-square"></i></span>
+
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon_con1_fo">
+                                    <span><i class="fab fa-facebook-square"></i></span>
+                            </li>
+
+                            <li>
+                                <div class="icon_con1_fo">
+                                    <span><i class="fab fa-google-plus-square"></i></span>
+                            </li>
+                            <!-- <li>
+                <div class="icon_con1_fo"><i class="fa fa-envelope" aria-hidden="true"></i>
+                </div>
+              </li>
+              <li>
+                <div class="icon_con1_fo"><i class="fa fa-envelope" aria-hidden="true"></i>
+                </div>
+              </li> -->
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ./Footer -->
+
+
+
+    <div id="myModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <div class="row">
+                        <div class="col-sm-6 col-xs-6 col-md-6 col-lg-6 col-xl-6">
+                            <img src="images/news1.jpg" style="width:100%">
+
+                        </div>
+                        <div class="col-sm-6 col-xs-6 col-md-6 col-lg-6 col-xl-6">
+                            <img src="images/news.jpg" style="width:100%">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <!-- <h3 class="text-center">
+                    India's exclusive Marathi OTT platform will be launched by Planet Marathi.
+
+                </h3> -->
+                    <form>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-danger" data-dismiss="modal">Know More</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+
+</body>
+
+</html>

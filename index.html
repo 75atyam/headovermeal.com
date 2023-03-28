@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!------ Include the above in your HEAD tag ---------->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <!--Fontawesome CDN-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+
+
+
+</head>
+
+<body>
+
+  <nav class="navbar container-flex navbar-expand-lg navbar-light bg-black">
+
+    <div class="col-sm-12 col-12 col-md-12 col-lg-12 col-xl-12">
+
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+          <a class="navbar-brand" href="#"><img src="img/logo.png" style="  width: 30%; height: 67px;"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6   mobile-1 ">
+          <div class="collapse navbar-collapse float-right" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="breakfast.html">Orders<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us<span class="sr-only">(current)</span></a>
+              </li>
+
+
+            </ul>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+  </nav>
+
+  <div id="demo" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+      <li data-target="#demo" data-slide-to="3"></li>
+      <li data-target="#demo" data-slide-to="4"></li>
+
+
+    </ul>
+
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/food1.jpg" alt="Los Angeles">
+      </div>
+      <div class="carousel-item">
+        <img src="img/call.jpg" alt="New York">
+      </div>
+      <div class="carousel-item ">
+        <img src="img/orders.jpg" alt="Los Angeles">
+      </div>
+      <!--      
+      <div class="carousel-item">
+        <img src="img/family.jpg" alt="Los Angeles">
+      </div> -->
+      <div class="carousel-item">
+        <img src="img/hero-area-bg-2.jpg" alt="New York">
+      </div>
+      <div class="carousel-item">
+        <img src="img/hero-area-bg.jpg" alt="Chicago">
+      </div>
+
+
+
+      <div class="container form_container">
+        <div class="d-flex justify-content-center float-right form_move h-100">
+          <div class="card form_show">
+            <div class="card-header">
+              <h3>Sign In</h3>
+              <div class="d-flex justify-content-end social_icon">
+                <span><i class="fab fa-facebook-square"></i></span>
+                <span><i class="fab fa-google-plus-square"></i></span>
+                <span><i class="fab fa-twitter-square"></i></span>
+              </div>
+            </div>
+            <div class="card-body">
+              <form>
+                <div class="input-group form-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fas fa-user"></i></span>
+                  </div>
+                  <input type="text" class="form-control" placeholder="username">
+
+                </div>
+                <div class="input-group form-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fas fa-key"></i></span>
+                  </div>
+                  <input type="password" class="form-control" placeholder="password">
+                </div>
+                <div class="row align-items-center remember">
+                  <input type="checkbox">Remember Me
+                </div>
+                <div class="form-group">
+                  <a href="index.html">
+                    <input type="submit" value="Submit" class="btn float-right login_btn">
+
+                  </a>
+                </div>
+              </form>
+            </div>
+            <div class="card-footer">
+              <div class="d-flex justify-content-center links">
+                <p>Don't have an account?</p>
+
+              </div>
+              <div class="d-flex justify-content-center">
+                <a href="sign1.html">Sign Up</a>
+              </div>
+              <div class="d-flex justify-content-center">
+                <a href="forget.html">Forgot your password?</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </div>
+  <section class="category">
+    <div class="container">
+      <div class="col-sm-12 col-12 col-md-12 col-xl-12 col-lg-12">
+
+        <div class="page-header1 section-header">
+          <h1>FOOD <span>CATEGORY</span></h1>
+
+        </div>
+      </div>
+      <div class="col-sm-12 col-12 col-md-12 col-xl-12 col-lg-12">
+        <div class="row">
+
+          <div class="col-sm-6 col-6 col-md-3 col-xl-3 col-lg-3">
+
+            <div class="card_main">
+              <div class=" card_category">
+                <div class="card_category_img">
+                  <img src="img/burger.png" alt="Avatar">
+
+                </div>
+                <div class="card_round1">
+                </div>
+              </div>
+              <div class="heading_h2">
+
+                <h4>
+                  <a href="breakfast.html">
+                  Breakfast
+                  </a>
+               
+                </h4>
+
+              </div>
+            </div>
+
+          </div>
+          <!-- <div class="col-sm-6 col-6 col-md-2 col-xl-2 col-lg-2">
+
+            <div class="card_main">
+              <div class=" card_category">
+                <div class="card_category_img">
+                  <img src="img/hot-cup.png" alt="Avatar">
+
+                </div>
+                <div class="card_round1">
+                </div>
+              </div>
+
+              <div class="heading_h2">
+                <h4>
+                  Tea
+                </h4>
+              </div>
+            </div>
+          </div> -->
+          <!-- <div class="col-sm-6 col-6 col-md-2 col-xl-2 col-lg-2">
+            <div class="card_main">
+
+
+              <div class=" card_category">
+                <div class="card_category_img">
+                  <img src="img/bubble-tea.png" alt="Avatar">
+
+                </div>
+                <div class="card_round1">
+                </div>
+              </div>
+              <div class="heading_h2">
+                <h4>
+                  Coffee
+                </h4>
+              </div>
+            </div>
+          </div> -->
+
+          <div class="col-sm-6 col-6 col-md-3 col-xl-3 col-lg-3">
+            <div class="card_main">
+
+
+              <div class=" card_category">
+                <div class="card_category_img">
+                  <img src="img/lunch.png" alt="Avatar">
+
+                </div>
+                <div class="card_round1">
+                </div>
+              </div>
+              <div class="heading_h2">
+                <h4>
+                  <a href="dinner.html">
+                  Lunch
+
+                  </a>
+                </h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-6 col-md-3 col-xl-3 col-lg-3">
+            <div class="card_main">
+
+
+              <div class=" card_category">
+                <div class="card_category_img">
+                  <img src="img/drink.png" alt="Avatar">
+
+                </div>
+                <div class="card_round1">
+                </div>
+              </div>
+              <div class="heading_h2">
+                <h4>
+                <a href="ice.html">
+
+                  Ice cream
+                </a>
+                </h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-6 col-md-3 col-xl-3 col-lg-3">
+            <div class="card_main">
+
+
+              <div class=" card_category">
+                <div class="card_category_img">
+                  <img src="img/dinner.png" alt="Avatar">
+
+                </div>
+                <div class="card_round1">
+                </div>
+              </div>
+              <div class="heading_h2">
+                <h4>
+                <a href="dinner.html">
+
+                  Dinner
+                </a>
+                </h4>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+
+  <section class="work">
+    <div class="container">
+      <div class="col-sm-12 col-12 col-md-12 col-xl-12 col-lg-12">
+
+        <div class="page-header1 section-header">
+          <h1>HOW IT <span>WORKS</span></h1>
+
+        </div>
+      </div>
+      <div class="col-sm-12 col-12 col-md-12 col-xl-12 col-lg-12">
+        <div class="row">
+
+          <div class="col-sm-12 col-12 col-md-3 col-xl-3 col-lg-3">
+
+            <div class="card_main">
+              <div class=" card_category_work">
+                <div class=" card_category_work1">
+
+                  <div class="card_category_img_work">
+                    <img src="img/choose_food.png" alt="Avatar">
+
+                  </div>
+                  <div class="card_round1">
+                  </div>
+                </div>
+              </div>
+              <div class="heading_work_h2">
+                <h4>Step 1: Choose Your Favorite </h4>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-sm-12 col-12 col-md-3 col-xl-3 col-lg-3">
+
+            <div class="card_main">
+              <div class=" card_category_work">
+                <div class=" card_category_work1">
+
+                  <div class="card_img_work">
+                    <img src="img/de.png" alt="Avatar">
+
+                  </div>
+                  <div class="card_round1">
+                  </div>
+                </div>
+              </div>
+              <div class="heading_work_h2">
+                <h4>
+                  Step 2: We Deliver Your Meals </h4>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-sm-12 col-12 col-md-3 col-xl-3 col-lg-3">
+
+            <div class="card_main">
+              <div class=" card_category_work">
+                <div class=" card_category_work1">
+
+                  <div class="card_img_work">
+                    <img src="img/cash.png" alt="Avatar">
+
+                  </div>
+                  <div class="card_round1">
+                  </div>
+                </div>
+              </div>
+              <div class="heading_work_h2">
+                <h4>
+                  Step 3: Cash on Delivery </h4>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-sm-12 col-12 col-md-3 col-xl-3 col-lg-3">
+
+            <div class="card_main">
+              <div class=" card_category_work">
+                <div class=" card_category_work1">
+
+                  <div class="card_img_work">
+                    <img src="img/eat.png" alt="Avatar">
+
+                  </div>
+                  <div class="card_round1">
+                  </div>
+                </div>
+              </div>
+              <div class="heading_work_h2">
+                <h4>
+                  Step 4: Eat And Enjoy </h4>
+              </div>
+            </div>
+
+          </div>
+
+
+
+
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Footer -->
+  <div class="footer_body">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <div class="logo_img">
+            <a class="navbar-brand logo_down" href="#"><img src="img/logo.png"></a>
+
+          </div>
+
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <div class="logo_img1">
+            <p>
+              Address : Theem College of Engineering - [TCOE] , East, Boisar - Palghar Rd, Chilhar, Maharashtra 401501
+              <br> Moble No:
+              <a href="tel:+8668738918">
+                8668738918
+
+              </a>
+              <br> Email Id:
+              <a href="mailto:affanshaikh030@gmail.com" target="_top"> affanshaikh030@gmail.com</a>
+
+            </p>
+
+          </div>
+        </div>
+
+
+
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <div class="ul_list">
+            <ul class="underlist_1">
+              <li>
+                <div class="icon_con1_fo"> <span><i class="fab fa-twitter-square"></i></span>
+
+                </div>
+              </li>
+              <li>
+                <div class="icon_con1_fo">
+                  <span><i class="fab fa-facebook-square"></i></span>
+              </li>
+
+              <li>
+                <div class="icon_con1_fo">
+                  <span><i class="fab fa-google-plus-square"></i></span>
+              </li>
+              <!-- <li>
+                <div class="icon_con1_fo"><i class="fa fa-envelope" aria-hidden="true"></i>
+                </div>
+              </li>
+              <li>
+                <div class="icon_con1_fo"><i class="fa fa-envelope" aria-hidden="true"></i>
+                </div>
+              </li> -->
+            </ul>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ./Footer -->
+
+
+
+  <div id="myModal" class="modal fade">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <div class="row">
+            <div class="col-sm-6 col-xs-6 col-md-6 col-lg-6 col-xl-6">
+              <img src="images/news1.jpg" style="width:100%">
+
+            </div>
+            <div class="col-sm-6 col-xs-6 col-md-6 col-lg-6 col-xl-6">
+              <img src="images/news.jpg" style="width:100%">
+
+            </div>
+          </div>
+        </div>
+        <div class="modal-body">
+          <!-- <h3 class="text-center">
+                    India's exclusive Marathi OTT platform will be launched by Planet Marathi.
+
+                </h3> -->
+          <form>
+            <div class="modal-footer">
+              <button type="submit" class="btn btn-danger" data-dismiss="modal">Know More</button>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+
+</body>
+
+</html>
